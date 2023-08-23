@@ -1,0 +1,8 @@
+spring:
+  config:
+    import: optional:configserver:http://localhost:3434
+  application:
+    name: welcome
+    
+server:
+  port: 7878  

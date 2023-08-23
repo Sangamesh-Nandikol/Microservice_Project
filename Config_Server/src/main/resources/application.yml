@@ -1,0 +1,10 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          clone-on-start: true
+          uri: https://github.com/ashokitschool/configuration_properties
+          
+server:
+  port: 3434
